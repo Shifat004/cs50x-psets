@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #27293d;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    color: #ffcc00;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ffcc00;
+    color: #1e1e2f;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ffaa00;
+}
+
+.game-list {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.game-list h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.game-item {
+    background-color: #27293d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #27293d;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
